@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.box h5 {
+    color: yellow;
+}
+/* Styling for the Contact Details Section */
+.contact-section {
+    padding: 2rem;
+}
+
+/* Styling for the Contact Details Heading */
+.contact-section h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styling for the Contact Details List */
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styling for Individual Contact Details */
+.contact-section li {
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid cyan;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-section li:hover {
+    color: white;
+    border-color: white;
+}
+
+.contact-section span {
+    color: cyan;
+}
+/* Styling for Links */
+.contact-section a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dashed cyan;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-section a:hover {
+    color: cyan;
+    border-color: cyan;
+}
+.contact-section {
+    transition: .3s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+/* Styling for links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Basic styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*  CERTIFICATIONS     */
+.carousel-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.carousel-item img{
+    height: 70vh;
+    width: 60vw;
+    background-image: cover;
+    align-content: center;
+    padding-left: 30px;
+}
+
+.certificate-section h1 {
+    color: white;
+}
+.certificate-section span {
+    color: cyan;
+}
+
+.carousal-inner {
+    transition: .3s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+/*   COVER PAGES   */
+.card-title {
+    font-size: 15px;
+    color: white;
+}
+.cover-pages span {
+    color: cyan;
+}
+
+.cover-pages h1 {
+    color: white;
+}
+.coverpage-menu-section {
+    transition: .3s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.btn-custom-cyan {
+    background-color: cyan;
+    color: white;
+    border-color: cyan;
+    border-style: solid;
+    color: white;
+}
+
+.btn-custom-cyan:hover {
+    background-color: #38fcff; 
+    border-color: #38fcff;
+    color: white;
+    border-color: cyan;
+    border-style: solid;
+    color: white;
+}
+
+
+/*    PROJECTS   */
+.menu-item-card {
+    border-style: solid;
+    border-color: cyan;
+    border-width: thin;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #20232a;
+}
+
+
+.projects-section {
+    transition: .3s;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    }
+.projects-section span {
+    color: cyan;
+}
+
+.projects-section h1 {
+    color: white;
+}
+
+.menu-item-card h3 {
+    color: yellow;
+}
+
+.menu-item-card p {
+    color: white;
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu-item-card img {
+    max-width: 100%;
+    height: 50;
+}
+
+.img-fluid {
+    height: 50;
+}
+
+
+/*   SECTION-SKILLS   */
+
+.box-1 p {
+    color: white;
+}
+.Rs-image {
+    height: 30vh;
+    width: 41vw;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.bar {
+    font-size: 23px;
+    padding-left: 65px;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.My-skills {
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.Technical-bars .bar {
+    margin-top: 40px 0;
+    
+}
+
+.Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.Technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.Technical-bars .bar .info {
+    margin-bottom: 5px;
+    color: cyan;
+}
+
+.Technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+}
+
+.arrow {
+    color: cyan;
+    margin-left: 100px;
+    padding: 3px;
+    animation-delay: 5s;
+    opacity: 0;
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef;
+}
+
+.info span{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0px #0ef,
+        0 0 8px yellow;
+    border-style: solid;
+    border-color: white;
+    border-width: bold;
+    padding: 2px ;
+    
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tech-skills {
+    color: rgba(255, 255, 255, 0.91);
+    text-decoration: underline;
+    padding-right: 150px;
+    
+}
+
+.tech-skills span {
+    color: cyan;
+}
+
+.fs {
+    color: yellow;
+}
+
+
+/*  ABOUT ME   */
+.About-me {
+    transition: .3s;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    text-decoration: none;
+}
+.About-me-paragraph p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+    transition: .3s;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    text-decoration: none;
+}
+.About-me h1{
+    color: rgba(255, 255, 255, 0.91);
+    text-align: center;
+    text-decoration: underline;
+}
+.About-me span {
+    color: cyan;
+}
+
+/*   SECTION-1   */
+
+.Banner-image {
+    padding-left: 170px;
+}
+
+.Banner-image img {
+    max-width: 100%; 
+    height: 50vh;
+    border: 5px solid cyan;
+    box-shadow: 0 0 5px #0ef, 0 0 15px #0ef;
+    transition: .3s;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    text-decoration: none;
+    
+}
+
+.home-content {
+    padding: 2rem;
+}
+
+.home-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.7s;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 10px;
+    font-size: 18px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 0.7s;
+}
+
+.home-content h3 span {
+    color: #1CCDEC; 
+}
+
+.home-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: -3px 0;
+    opacity: 0;
+    color: #00FFFB; 
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    font-style: italic;
+}
+
+.home-sci a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 3.5px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    opacity: 0;
+    animation: slideLeft 0.3s ease forwards;
+    margin: 10px 15px 10px 0;
+}
+
+.home-sci a:hover {
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 10px #0ef;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 10px cyan, 0 0 100px cyan;
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/*  NAVBAR  */
+.container {
+    background-color: #1f102c;
+    height: 100vh;
+    background-size: cover;
+}
+
+.navbar-toggler {
+    border-color: #00ffff;
+}
+
+.navbar-brand img {
+    height: 7vh;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px #0ef;
+}
+
+.navbar-nav a{
+    color: #1f102c;
+    font-size: bolder;
+    box-shadow: 0 0 5px #0ef,
+        0 0 10px #0ef;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+/*  ARROW  */
+.arrow-down {
+    padding: 10px;
+    color: cyan;
+    font-size: 30px;
+    border-radius: 25px;
+    opacity: 0;
+    animation: slideTop 8s ease forwards;
+    animation-delay: 5s;
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef;
+}
+
+.arrow-right {
+    margin: 10px;
+    padding: 5px;
+    color: cyan;
+    border-radius: 25px;
+    font-size: 30px;
+    opacity: 0;
+    margin-right: 20px;
+    animation: slideTop 8s ease forwards;
+    animation-delay: 5s;
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef;
+}
+.arrow-right:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 10px cyan, 0 0 20px cyan,
+        0 0 10px cyan, 0 0 100px cyan
+}
+.arrow-down:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 10px cyan, 0 0 20px cyan,
+        0 0 10px cyan, 0 0 100px cyan
+}
+.arrow:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 10px cyan, 0 0 20px cyan,
+        0 0 10px cyan, 0 0 100px cyan;
+        
+}
